@@ -125,3 +125,34 @@ body.course-2 .flip-card-back {
 body.course-2 .flip-card-back p {
   color: #fff;
 }
+
+/* TOOLTIP */
+body.course-2 .tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+body.course-2 .tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: 200px; /* optional */
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+  border-radius: 4px;
+
+  position: absolute;
+  bottom: 125%; /* above the element */
+  left: 50%;
+  transform: translateX(-50%);
+
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* prevents flicker when hovering the tooltip */
+}
+
+body.course-2 .tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
