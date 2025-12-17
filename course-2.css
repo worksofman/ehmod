@@ -1,9 +1,4 @@
-body.course-2
-  #page-content
-  #region-main
-  #page-content
-  #region-main
-  .course-intro {
+body.course-2 #page-content #region-main .course-intro {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
