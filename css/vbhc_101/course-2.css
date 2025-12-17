@@ -1,3 +1,7 @@
+:root {
+  --eh-primary-color: #1198de;
+}
+
 body.course-2 .course-intro {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -11,13 +15,13 @@ body.course-2 h2,
 body.course-2 h6 {
   font-weight: 700;
   font-size: 28px;
-  color: #1198de;
+  color: var(--eh-primary-color);
   margin: 0px 0 14px 0;
   line-height: 1.2;
 }
 body.course-2 h6 {
   font-size: 17px;
-  color: #1198de;
+  color: var(--eh-primary-color);
 }
 
 body.course-2 p {
@@ -49,7 +53,7 @@ body.course-2 .swiper-slide-inner {
 }
 body.course-2 .swiper-button-next,
 body.course-2 .swiper-button-prev {
-  color: #1198de;
+  color: var(--eh-primary-color);
   height: 20px !important;
   width: 20px !important;
 }
@@ -73,7 +77,7 @@ body.course-2 .align-center {
 }
 
 body.course-2 .learning-outcomes .container {
-  max-width: 80%;
+  max-width: 90%;
 }
 
 /* Container size */
@@ -123,8 +127,8 @@ body.course-2 .flip-card-front {
 
 body.course-2 .flip-card-front img.svg,
 body.course-2 .flip-card-front svg {
-  color: #1198de !important;
-  fill: #1198de !important;
+  color: var(--eh-primary-color) !important;
+  fill: var(--eh-primary-color) !important;
   height: 50px;
   width: 50px;
   margin-bottom: 20px;
@@ -136,10 +140,18 @@ body.course-2 .flip-card-front h3 {
   font-weight: 500;
 }
 
+body.course-2 .course-section .summarytext img {
+  border-radius: 0px;
+}
+
 /* Back appearance */
 body.course-2 .flip-card-back {
   background-color: transparent;
-  background-image: linear-gradient(180deg, #1198de 0%, #34baff 100%);
+  background-image: linear-gradient(
+    180deg,
+    var(--eh-primary-color) 0%,
+    #34baff 100%
+  );
   color: #fff;
   transform: rotateY(180deg);
 }
@@ -159,7 +171,7 @@ body.course-2 .tool-tip {
 }
 
 body.course-2 .tool-tip p {
-  color: #1198de;
+  color: var(--eh-primary-color);
   font-family: "Roboto", sans-serif;
   margin: 0px;
   font-size: 15px;
@@ -179,7 +191,7 @@ body.course-2 .tooltip-text {
 
   position: absolute;
   top: 50px; /* distance from the .tool-tip */
-  left: 100%; /* center horizontally relative to parent */
+  left: 110%; /* center horizontally relative to parent */
   transform: translateX(-50%);
   z-index: 20;
 
@@ -205,12 +217,22 @@ body.course-2 .tool-tip:hover .tooltip-text {
 }
 
 body.course-2 .bg-constilations {
-  background-image: url(https://vbhc1.elearning.ehealthier.com.au/wp-content/uploads/2024/01/footer.png);
+  background-image: url(https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/backgrounds/bg-constellation.png);
   color: #ffffff;
   padding: 20px;
 }
 
 body.course-2 .bg-constilations p,
 body.course-2 .bg-constilations h2 {
+  color: #ffffff;
+}
+
+body.course-2 .bg-constilations ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+body.course-2 .bg-constilations li:before {
+  content: "➔";
+  padding-right: 5px;
   color: #ffffff;
 }
