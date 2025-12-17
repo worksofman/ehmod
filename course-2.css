@@ -127,13 +127,13 @@ body.course-2 .flip-card-back p {
 }
 
 /* TOOLTIP */
-body.course-2 .tooltip {
+body.course-2 .tool-tip {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-body.course-2 .tooltip p {
+body.course-2 .tool-tip p {
   color: #1198de;
   font-family: "Roboto", sans-serif;
   background-color: #eaeaea;
@@ -159,7 +159,7 @@ body.course-2 .tooltip-text {
   pointer-events: none; /* prevents flicker when hovering the tooltip */
 }
 
-body.course-2 .tooltip:hover .tooltip-text {
+body.course-2 .tool-tip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
 }
