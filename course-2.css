@@ -6,6 +6,10 @@ body.course-2 #page-content #region-main section {
   margin-bottom: 35px;
 }
 
+body.course-2 a {
+  color: #1198de;
+}
+
 body.course-2 #page-content #region-main h2,
 body.course-2 #page-content #region-main h6 {
   font-weight: 700;
