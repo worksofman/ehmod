@@ -132,11 +132,13 @@ body.course-2 .tooltip {
   display: inline-block;
   cursor: pointer;
   color: #1198de;
+  font-family: "Roboto", sans-serif;
   background-color: #eaeaea;
 }
 
 body.course-2 .tooltip-text {
   visibility: hidden;
+  font-family: "Roboto", sans-serif;
   opacity: 0;
   width: 200px; /* optional */
   background: rgba(0, 0, 0, 0.8);
