@@ -131,6 +131,8 @@ body.course-2 .tooltip {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  color: #1198de;
+  background-color: #eaeaea;
 }
 
 body.course-2 .tooltip-text {
