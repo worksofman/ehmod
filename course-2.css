@@ -1,25 +1,30 @@
-body.course-2 .course-intro {
+body.course-2
+  #page-content
+  #region-main
+  #page-content
+  #region-main
+  .course-intro {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
-section {
+body.course-2 #page-content #region-main section {
   margin-bottom: 35px;
 }
 
-body.course-2 h2,
-body.course-2 h6 {
+body.course-2 #page-content #region-main h2,
+body.course-2 #page-content #region-main h6 {
   font-weight: 700;
   font-size: 28px;
   color: #1198de;
   margin: 0px 0 14px 0;
   line-height: 1.2;
 }
-body.course-2 h6 {
+body.course-2 #page-content #region-main h6 {
   font-size: 17px;
   color: #1198de;
 }
 
-body.course-2 p {
+body.course-2 #page-content #region-main p {
   color: #535353;
   font-weight: 400;
   font-size: 17px;
@@ -27,7 +32,7 @@ body.course-2 p {
   margin: 0px 0 24px 0;
 }
 
-body.course-2 h3 {
+body.course-2 #page-content #region-main h3 {
   color: #535353;
   font-weight: 500;
   font-size: 20px;
@@ -35,51 +40,51 @@ body.course-2 h3 {
   margin: 0px;
 }
 
-body.course-2 .video-wrapper {
+body.course-2 #page-content #region-main .video-wrapper {
   margin-bottom: 40px;
 }
 
-body.course-2 .course-video {
+body.course-2 #page-content #region-main .course-video {
   width: 100%;
   border-radius: 12px;
 }
-body.course-2 .swiper-slide-inner {
+body.course-2 #page-content #region-main .swiper-slide-inner {
   text-align: center;
 }
-body.course-2 .swiper-button-next,
-body.course-2 .swiper-button-prev {
+body.course-2 #page-content #region-main .swiper-button-next,
+body.course-2 #page-content #region-main .swiper-button-prev {
   color: #1198de;
   height: 20px !important;
   width: 20px !important;
 }
-body.course-2 .swiper-button-next {
+body.course-2 #page-content #region-main .swiper-button-next {
   right: -5px !important;
 }
-body.course-2 .swiper-button-prev {
+body.course-2 #page-content #region-main .swiper-button-prev {
   left: -5px !important;
 }
-body.course-2 .swiper-slide-inner {
+body.course-2 #page-content #region-main .swiper-slide-inner {
   margin-bottom: 0px;
 }
-body.course-2 .swiper {
+body.course-2 #page-content #region-main .swiper {
   margin-top: 35px;
 }
 
-body.course-2 .align-center {
+body.course-2 #page-content #region-main .align-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* Container size */
-body.course-2 .flip-card {
+body.course-2 #page-content #region-main .flip-card {
   width: 100%;
   height: 265px;
   perspective: 1000px; /* Creates 3D effect */
 }
 
 /* Inner wrapper */
-body.course-2 .flip-card-inner {
+body.course-2 #page-content #region-main .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -88,13 +93,13 @@ body.course-2 .flip-card-inner {
 }
 
 /* Flip on hover */
-body.course-2 .flip-card:hover .flip-card-inner {
+body.course-2 #page-content #region-main .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 /* Shared styles for sides */
-body.course-2 .flip-card-front,
-body.course-2 .flip-card-back {
+body.course-2 #page-content #region-main .flip-card-front,
+body.course-2 #page-content #region-main .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -109,18 +114,18 @@ body.course-2 .flip-card-back {
 }
 
 /* Front appearance */
-body.course-2 .flip-card-front {
+body.course-2 #page-content #region-main .flip-card-front {
   background: #fff;
   color: #333;
 }
 
 /* Back appearance */
-body.course-2 .flip-card-back {
+body.course-2 #page-content #region-main .flip-card-back {
   background-color: transparent;
   background-image: linear-gradient(180deg, #1198de 0%, #34baff 100%);
   color: #fff;
   transform: rotateY(180deg);
 }
-body.course-2 .flip-card-back p {
+body.course-2 #page-content #region-main .flip-card-back p {
   color: #fff;
 }
