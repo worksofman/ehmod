@@ -131,6 +131,9 @@ body.course-2 .tooltip {
   position: relative;
   display: inline-block;
   cursor: pointer;
+}
+
+body.course-2 .tooltip p {
   color: #1198de;
   font-family: "Roboto", sans-serif;
   background-color: #eaeaea;
