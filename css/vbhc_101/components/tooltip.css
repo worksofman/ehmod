@@ -1,0 +1,56 @@
+/* TOOLTIP */
+body.course-2 .tool-tip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 10px;
+  background-color: #eaeaea;
+  border-radius: 35px;
+  margin-bottom: 35px;
+}
+
+body.course-2 .tool-tip p {
+  color: var(--eh-primary-color);
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+body.course-2 .tooltip-text {
+  visibility: hidden;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+  width: 250px; /* optional */
+  background: rgba(52, 60, 71, 0.8);
+  color: #fff;
+  text-align: left;
+  padding: 25px;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 50px; /* distance from the .tool-tip */
+  left: 110%; /* center horizontally relative to parent */
+  transform: translateX(-50%);
+  z-index: 20;
+
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Arrow pointing to the .tool-tip */
+body.course-2 .tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: -20px; /* position above the tooltip */
+  left: 20%;
+  transform: translateX(-50%);
+  border-width: 10px; /* size of the arrow */
+  border-style: solid;
+  border-color: transparent transparent rgba(52, 60, 71, 0.8) transparent; /* arrow color matches tooltip background */
+}
+
+body.course-2 .tool-tip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

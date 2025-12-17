@@ -1,0 +1,21 @@
+/* CONSTELLATIONS BACKGROUND */
+body.course-2 .bg-constilations {
+  background-image: url(https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/backgrounds/bg-constellation.png);
+  color: #ffffff;
+  padding: 20px;
+}
+
+body.course-2 .bg-constilations p,
+body.course-2 .bg-constilations h2 {
+  color: #ffffff;
+}
+
+body.course-2 .bg-constilations ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+body.course-2 .bg-constilations li:before {
+  content: "➔";
+  padding-right: 5px;
+  color: #ffffff;
+}
