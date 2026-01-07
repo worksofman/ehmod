@@ -5,7 +5,7 @@ body.course-2 .accordion .accordion-header {
 
 body.course-2 .accordion .accordion-button::after {
   mask: var(--eh-accordion-open);
-  background: #ffffff;
+  background: var(--eh-text-color);
 }
 
 body.course-2 .accordion .accordion-button:not(.collapsed)::after {
@@ -18,7 +18,7 @@ body.course-2 .accordion .accordion-button {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  border: 1px solid #d5d8dc;
+  border: 1px solid var(--eh-gray-100);
 }
 
 body.course-2 .accordion .accordion-button {

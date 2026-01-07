@@ -40,11 +40,11 @@ body.course-2 .bar-100::before {
   width: 100%;
 }
 
-body.course-2 .modal button.btn-close {
+body.course-2 .modal button.pum-close {
   background-color: #000 !important;
   border-radius: 50% !important;
-  border: 1px solid #ffffff !important;
+  border: 2px solid #ffffff !important;
   --bs-btn-close-color: #ffffff !important;
   color: #ffffff !important;
-  opacity: 1 !important;
+  padding: 1px 8px;
 }

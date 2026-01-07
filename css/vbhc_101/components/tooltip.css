@@ -4,7 +4,7 @@ body.course-2 .tool-tip {
   display: inline-block;
   cursor: pointer;
   padding: 6px 10px;
-  background-color: #eaeaea;
+  background-color: var(--eh-gray-100);
   border-radius: 35px;
   margin-bottom: 35px;
 }
@@ -22,7 +22,7 @@ body.course-2 .tooltip-text {
   font-family: "Roboto", sans-serif;
   opacity: 0;
   width: 250px; /* optional */
-  background: rgba(52, 60, 71, 0.8);
+  background: var(--eh-gray-transparent);
   color: #fff;
   text-align: left;
   padding: 25px;
@@ -47,7 +47,7 @@ body.course-2 .tooltip-text::before {
   transform: translateX(-50%);
   border-width: 10px; /* size of the arrow */
   border-style: solid;
-  border-color: transparent transparent rgba(52, 60, 71, 0.8) transparent; /* arrow color matches tooltip background */
+  border-color: transparent transparent var(--eh-gray-transparent) transparent; /* arrow color matches tooltip background */
 }
 
 body.course-2 .tool-tip:hover .tooltip-text {

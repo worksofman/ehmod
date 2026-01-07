@@ -28,7 +28,7 @@ body.course-2 .bg-blue {
 }
 
 body.course-2 .bg-blue ul li {
-  line-height:1;
+  line-height: 1;
 }
 
 body.course-2 .bg-blue h3,
@@ -51,6 +51,14 @@ body.course-2 .bg-gray-50 {
 
 body.course-2 .bg-gray-100 {
   background-color: var(--eh-gray-100) !important;
+}
+
+body.course-2 .bg-gray-300 {
+  background-color: var(--eh-gray-300) !important;
+}
+
+body.course-2 .bg-gray-transparent {
+  background-color: var(--eh-gray-transparent) !important;
 }
 
 body.course-2 .gradient-red {

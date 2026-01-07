@@ -20,6 +20,7 @@
 
 :root {
   --eh-primary-color: #1198de;
+  --eh-primary-light: #dfeefd;
   --eh-secondary-color: #266fb6;
   --eh-text-color: #535353;
   --bs-btn-bg: var(--eh-primary-color);
@@ -30,6 +31,5 @@
   --eh-gray-150: #b1b1b1;
   --eh-gray-200: #adadad;
   --eh-gray-300: #7f7f7f;
-  --eh-gray-400: #424242;
-  --eh-table-text-color: var(--eh-gray-400);
+  --eh-gray-transparent: rgba(52, 60, 71, 0.8);
 }

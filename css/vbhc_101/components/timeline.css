@@ -92,7 +92,7 @@ body.course-2 .timeline-hover .row .col-md-4 {
 body.course-2 .timeline-hover .col-md-4 p {
   position: absolute;
   padding: 25px;
-  background: #3b95f329;
+  background: var(--eh-primary-light);
   visibility: hidden;
   margin: 0px;
   top: -35px;

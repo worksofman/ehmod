@@ -169,9 +169,9 @@ body.course-2 .carousel-pointers .carousel-control-next {
   height: 50px;
   width: 50px;
   right: auto;
-  left: -45px;
+  left: -52px;
   color: #ffffff;
-  background-color: var(--e-global-color-primary);
+  background-color: var(--eh-secondary-color);
   border-radius: 50% 50% 50% 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -179,5 +179,5 @@ body.course-2 .carousel-pointers .carousel-control-next {
 
 body.course-2 .carousel-pointers .carousel-control-next {
   left: auto;
-  right: -45px;
+  right: -52px;
 }
