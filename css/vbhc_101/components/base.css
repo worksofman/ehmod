@@ -23,15 +23,23 @@ body.course-2 h6 {
 }
 
 body.course-2 p {
-  color: #535353;
+  color: var(--eh-text-color);
   font-weight: 400;
   font-size: 17px;
   line-height: 1.6;
   margin: 0px 0 24px 0;
 }
 
+body.course-2 h4 {
+  color: var(--eh-text-color);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0px 0 16px 0;
+}
+
 body.course-2 h3 {
-  color: #535353;
+  color: var(--eh-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.6;
@@ -43,4 +51,65 @@ body.course-2 .align-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* HEIGHTS */
+body.course-2 .h-490 {
+  height: 490px;
+}
+
+body.course-2 .h-368 {
+  min-height: 368px;
+  height: 368px;
+}
+
+body.course-2 .h-363 {
+  min-height: 363px;
+  height: 363px;
+}
+
+body.course-2 .h-325 {
+  min-height: 325.688px;
+  height: 325.688px;
+}
+
+body.course-2 .h-328 {
+  min-height: 328.109px;
+  height: 328.109px;
+}
+
+body.course-2 .h-345 {
+  min-height: 345.75px;
+  height: 345.75px;
+}
+
+body.course-2 .h-330 {
+  min-height: 330px;
+  height: 330px;
+}
+
+body.course-2 .p-58 {
+  padding: 58px;
+}
+
+body.course-2 .py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+body.course-2 .px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body.course-2 .p-15 {
+  padding: 15px;
+}
+
+body.course-2 .p-30 {
+  padding: 30px !important;
+}
+
+body.course-2 .p-20 {
+  padding: 20px !important;
 }

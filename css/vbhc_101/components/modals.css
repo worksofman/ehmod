@@ -1,0 +1,50 @@
+/* MODALS */
+body.course-2 .group_links {
+  font-family: "Poppins";
+  font-size: 11px;
+  text-transform: capitalize;
+  width: 20%;
+  float: left;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  min-height: 59px;
+}
+
+body.course-2 .bar,
+body.course-2 .bar-50,
+body.course-2 .bar-100 {
+  width: 100%;
+  background: #5b6b7c;
+  height: 8px;
+  border-radius: 43px;
+  position: relative;
+}
+
+body.course-2 .bar-100::before {
+  width: 100%;
+}
+
+body.course-2 .bar-50::before,
+.bar-100::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 50%;
+  height: 8px;
+  border-radius: 43px;
+  background: #99ca3c;
+}
+body.course-2 .bar-100::before {
+  width: 100%;
+}
+
+body.course-2 .modal button.btn-close {
+  background-color: #000 !important;
+  border-radius: 50% !important;
+  border: 1px solid #ffffff !important;
+  --bs-btn-close-color: #ffffff !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}

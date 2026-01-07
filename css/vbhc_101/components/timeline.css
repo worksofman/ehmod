@@ -1,0 +1,110 @@
+/* TIMELINE */
+body.course-2 .timeline-steps,
+body.course-2 .timeline-hover {
+  position: relative;
+}
+
+body.course-2 .timeline-steps::before,
+body.course-2 .timeline-hover::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  top: 85px;
+  height: calc(100% - 205px);
+  left: 162px;
+  background: var(--eh-gray-200);
+}
+
+/* STEPS */
+body.course-2 .timeline-steps .col-md-2 {
+  background-color: var(--eh-primary-color);
+  padding: 13px 31px;
+  border-radius: 30px;
+}
+
+body.course-2 .timeline-steps .col-md-2 p {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+body.course-2 .timeline-steps .col-md-7 {
+  border-radius: 20px;
+  padding: 15px 35px;
+}
+body.course-2 .timeline-steps .col-md-7:hover {
+  background-color: var(--eh-gray-100);
+}
+
+body.course-2 .timeline-steps .col-md-1 .elementor-icon {
+  text-align: center;
+  height: 40px;
+  padding-top: 6px;
+  border-radius: 50%;
+}
+
+body.course-2 .timeline-steps .col-md-1 i {
+  color: white;
+  font-size: 27px;
+}
+
+/* HOVER */
+body.course-2 .timeline-hover::before {
+  top: 40px;
+  left: 171px;
+  height: calc(100% - 50px);
+}
+
+body.course-2 .timeline-hover .col-md-2 {
+  color: var(--eh-primary-color);
+}
+
+body.course-2 .timeline-hover .col-md-1 {
+  text-align: center;
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+  background-color: var(--eh-primary-color);
+}
+
+body.course-2 .timeline-hover .col-md-1 i {
+  color: white;
+  font-size: 18px;
+}
+
+body.course-2 .timeline-hover .col-md-5 {
+  padding: 13px 20px;
+}
+
+body.course-2 .timeline-hover .row:hover .col-md-5 {
+  border-radius: 20px;
+  background-color: var(--eh-gray-100);
+}
+
+body.course-2 .timeline-hover .row .col-md-4 {
+  position: relative;
+}
+
+body.course-2 .timeline-hover .col-md-4 p {
+  position: absolute;
+  padding: 25px;
+  background: #3b95f329;
+  visibility: hidden;
+  margin: 0px;
+  top: -35px;
+  border-radius: 20px;
+}
+
+body.course-2 .timeline-hover .row:hover .col-md-4 p {
+  visibility: visible;
+}
+
+body.course-2 .timeline-hover .row:last-child .col-md-4 p,
+body.course-2 .timeline-hover .row:nth-last-child(2) .col-md-4 p {
+  bottom: -35px;
+  top: auto;
+}

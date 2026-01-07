@@ -2,11 +2,12 @@
 body.course-2 .bg-constilations {
   background-image: url(https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/backgrounds/bg-constellation.png);
   color: #ffffff;
-  padding: 20px;
+  padding: 80px;
 }
 
 body.course-2 .bg-constilations p,
-body.course-2 .bg-constilations h2 {
+body.course-2 .bg-constilations h2,
+body.course-2 .bg-constilations h3 {
   color: #ffffff;
 }
 
@@ -14,8 +15,87 @@ body.course-2 .bg-constilations ul {
   list-style: none;
   padding-inline-start: 0px;
 }
+
 body.course-2 .bg-constilations li:before {
   content: "➔";
   padding-right: 5px;
   color: #ffffff;
+}
+
+body.course-2 .bg-blue {
+  background-color: var(--eh-primary-color) !important;
+  color: #ffffff;
+}
+
+body.course-2 .bg-blue ul li {
+  line-height:1;
+}
+
+body.course-2 .bg-blue h3,
+body.course-2 .bg-blue h4,
+body.course-2 .bg-blue p {
+  color: #ffffff;
+}
+body.course-2 .bg-blue p {
+  font-size: 16.5px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+body.course-2 .bg-blue h3 {
+  font-size: 20px;
+}
+
+body.course-2 .bg-gray-50 {
+  background-color: var(--eh-gray-50) !important;
+}
+
+body.course-2 .bg-gray-100 {
+  background-color: var(--eh-gray-100) !important;
+}
+
+body.course-2 .gradient-red {
+  padding: 34px;
+  border: 1px solid #c3c3c3;
+  background: linear-gradient(
+    271deg,
+    rgba(255, 208, 208, 0.1) 9.07%,
+    rgba(255, 61, 61, 0.44) 173.65%
+  );
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.7px;
+  color: #424242;
+  letter-spacing: 0.85px;
+}
+
+body.course-2 .gradient-green {
+  padding: 34px;
+  border: 1px solid #c3c3c3;
+  background: linear-gradient(
+    93deg,
+    rgba(234, 255, 255, 0.84) 13.55%,
+    rgba(152, 244, 245, 0.26) 56.59%
+  );
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.7px;
+  color: #424242;
+  letter-spacing: 0.85px;
+}
+
+body.course-2 p.fade-white {
+  position: relative;
+}
+
+body.course-2 .fade-white::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.9) 10%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }

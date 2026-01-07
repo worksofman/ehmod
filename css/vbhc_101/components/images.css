@@ -1,3 +1,13 @@
 body.course-2 .course-section .summarytext img {
   border-radius: 0px;
 }
+
+body.course-2 .blue-color svg {
+  color: var(--eh-primary-color) !important;
+  fill: var(--eh-primary-color) !important;
+}
+
+body.course-2 .svg-40 svg {
+  width: 40px;
+  height: auto;
+}

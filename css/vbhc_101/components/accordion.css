@@ -1,0 +1,51 @@
+/* ACCORDION */
+body.course-2 .accordion .accordion-header {
+  margin-bottom: 0px;
+}
+
+body.course-2 .accordion .accordion-button::after {
+  mask: var(--eh-accordion-open);
+  background: #ffffff;
+}
+
+body.course-2 .accordion .accordion-button:not(.collapsed)::after {
+  mask: var(--eh-accordion-close);
+  background: #ffffff;
+}
+
+body.course-2 .accordion .accordion-button {
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #d5d8dc;
+}
+
+body.course-2 .accordion .accordion-button {
+  background-color: #ffffff;
+  color: var(--eh-text-color);
+}
+
+body.course-2 .accordion .accordion-button:not(.collapsed) {
+  background-color: var(--eh-primary-color);
+  color: #ffffff;
+}
+
+body.course-2 .accordion .accordion-button a {
+  color: var(--eh-text-color);
+  text-decoration: none;
+}
+
+body.course-2 .accordion .accordion-button:not(.collapsed) a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body.course-2 .accordion .accordion-body {
+  color: var(--eh-text-color);
+  padding: 50px 30px;
+}
+
+body.course-2 .accordion .accordion-body ul {
+  list-style: disc;
+}

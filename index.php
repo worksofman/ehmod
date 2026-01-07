@@ -5,31 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Main Page</title>
-  <link rel="stylesheet" href="css/vbhc_101/course-2.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
-  <!-- Bootstrap 5 CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet">
-
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  /> 
   <!-- Font Awesome 6 CSS -->
   <link
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    rel="stylesheet">
+    rel="stylesheet"/>
+    
+  <link rel="stylesheet" href="css/vbhc_101/course-2.css"/>
+  <link rel="icon" href="favicon.png" type="image/png"/> 
 </head>
 
 <body class="course-2">
   <div class="container-fluid" style="max-width: 50%;">
-    <?php include 'no-css.html'; ?>
+    <?php include 'm1l1.html'; ?>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
