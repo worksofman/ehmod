@@ -7,8 +7,8 @@ body.course-2 .tabs-vertical button {
   font-size: 20px;
   line-height: 1;
   font-weight: 700;
-  color: var(--eh-text-color);
-  background-color: var(--eh-gray-100);
+  color: var(--eh-text-color) !important;
+  background-color: var(--eh-gray-100) !important;
   text-align: left;
   border-bottom: var(--eh-gray-150) solid 1px;
   position: relative;
@@ -18,7 +18,7 @@ body.course-2 .tabs-vertical button {
 
 body.course-2 .tabs-vertical button.active,
 body.course-2 .tabs-vertical button:hover {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   color: var(--eh-text-color) !important;
 }
 
@@ -26,7 +26,7 @@ body.course-2 .tabs-vertical button::before {
   content: "\f054";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: var(--eh-text-color);
+  color: var(--eh-text-color) !important;
   margin-right: 0.5rem;
   position: absolute;
   height: 20px;
@@ -48,7 +48,7 @@ body.course-2 .tabs-horizontal .nav-link {
   padding-left: 40px;
   padding-right: 40px;
   letter-spacing: 1.25px;
-  border-bottom: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff !important;
   border-top: none !important;
   border-right: none !important;
   border-left: none !important;
@@ -58,5 +58,19 @@ body.course-2 .tabs-horizontal .nav-link {
 body.course-2 .tabs-horizontal .nav-link.active,
 body.course-2 .tabs-horizontal .nav-link:hover {
   color: var(--eh-primary-color) !important;
-  border-bottom: solid 2px var(--eh-primary-color);
+  border-bottom: solid 2px var(--eh-primary-color) !important;
+}
+
+@media screen and (max-width: 768px) {
+  body.course-2 .tabs-vertical button {
+    padding: 10px;
+    font-size: 12px;
+  }
+  body.course-2 .tabs-vertical button::before {
+    display: none;
+  }
+
+  body.course-2 .tabs-horizontal .nav-link {
+    width: 100%;
+  }
 }

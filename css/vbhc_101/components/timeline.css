@@ -4,15 +4,16 @@ body.course-2 .timeline-hover {
   position: relative;
 }
 
-body.course-2 .timeline-steps::before,
-body.course-2 .timeline-hover::before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  top: 85px;
-  height: calc(100% - 205px);
-  left: 162px;
-  background: var(--eh-gray-200);
+@media screen and (min-width: 1024px) {
+  body.course-2 .timeline-steps::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 85px;
+    height: calc(100% - 205px);
+    left: 162px;
+    background: var(--eh-gray-200);
+  }
 }
 
 /* STEPS */
@@ -41,20 +42,34 @@ body.course-2 .timeline-steps .col-md-7:hover {
 body.course-2 .timeline-steps .col-md-1 .elementor-icon {
   text-align: center;
   height: 40px;
-  padding-top: 6px;
   border-radius: 50%;
 }
 
 body.course-2 .timeline-steps .col-md-1 i {
   color: white;
   font-size: 27px;
+  background: var(--eh-primary-color);
+  border-radius: 50%;
+  padding: 6px;
 }
 
 /* HOVER */
-body.course-2 .timeline-hover::before {
-  top: 40px;
-  left: 171px;
-  height: calc(100% - 50px);
+@media screen and (min-width: 768px) {
+  body.course-2 .timeline-hover::before {
+    top: 40px;
+    left: 130px;
+    height: calc(100% - 50px);
+    content: "";
+    position: absolute;
+    width: 4px;
+    background: var(--eh-gray-200);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.course-2 .timeline-hover::before {
+    left: 157px;
+  }
 }
 
 body.course-2 .timeline-hover .col-md-2 {
@@ -63,7 +78,6 @@ body.course-2 .timeline-hover .col-md-2 {
 
 body.course-2 .timeline-hover .col-md-1 {
   text-align: center;
-  margin-left: 15px;
   height: 40px;
   width: 40px;
   padding-top: 10px;
@@ -78,15 +92,16 @@ body.course-2 .timeline-hover .col-md-1 i {
 
 body.course-2 .timeline-hover .col-md-5 {
   padding: 13px 20px;
+  border-radius: 20px;
 }
 
 body.course-2 .timeline-hover .row:hover .col-md-5 {
-  border-radius: 20px;
   background-color: var(--eh-gray-100);
 }
 
 body.course-2 .timeline-hover .row .col-md-4 {
   position: relative;
+  padding: 0;
 }
 
 body.course-2 .timeline-hover .col-md-4 p {
@@ -103,6 +118,25 @@ body.course-2 .timeline-hover .row:hover .col-md-4 p {
   visibility: visible;
 }
 
+@media screen and (max-width: 768px) {
+  body.course-2 .timeline-hover .col-md-2 {
+    margin-top: 20px;
+  }
+
+  body.course-2 .timeline-hover .row .col-md-5 {
+    background-color: var(--eh-gray-100);
+  }
+
+  body.course-2 .timeline-hover .col-md-4 p {
+    position: relative;
+    padding: 25px;
+    background: var(--eh-primary-light);
+    visibility: visible;
+    margin: 0px;
+    top: auto;
+    border-radius: 20px;
+  }
+}
 body.course-2 .timeline-hover .row:last-child .col-md-4 p,
 body.course-2 .timeline-hover .row:nth-last-child(2) .col-md-4 p {
   bottom: -35px;

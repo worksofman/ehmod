@@ -1,0 +1,35 @@
+@import url("components/accordion.css");
+@import url("components/base.css");
+@import url("components/images.css");
+@import url("components/video.css");
+@import url("components/slider.css");
+@import url("components/overview.css");
+@import url("components/flipcards.css");
+@import url("components/tooltip.css");
+@import url("components/timeline.css");
+@import url("components/background.css");
+@import url("components/btn.css");
+@import url("components/animations.css");
+@import url("components/cards.css");
+@import url("components/table.css");
+@import url("components/tabs.css");
+@import url("components/carousel.css");
+@import url("components/modals.css");
+
+@import url("components/overview.css");
+
+:root {
+  --eh-primary-color: #1198de;
+  --eh-primary-light: #dfeefd;
+  --eh-secondary-color: #266fb6;
+  --eh-text-color: #535353;
+  --bs-btn-bg: var(--eh-primary-color);
+  --eh-accordion-open: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjEuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGQ9Ik0zNTIgMTI4QzM1MiAxMTAuMyAzMzcuNyA5NiAzMjAgOTZDMzAyLjMgOTYgMjg4IDExMC4zIDI4OCAxMjhMMjg4IDI4OEwxMjggMjg4QzExMC4zIDI4OCA5NiAzMDIuMyA5NiAzMjBDOTYgMzM3LjcgMTEwLjMgMzUyIDEyOCAzNTJMMjg4IDM1MkwyODggNTEyQzI4OCA1MjkuNyAzMDIuMyA1NDQgMzIwIDU0NEMzMzcuNyA1NDQgMzUyIDUyOS43IDM1MiA1MTJMMzUyIDM1Mkw1MTIgMzUyQzUyOS43IDM1MiA1NDQgMzM3LjcgNTQ0IDMyMEM1NDQgMzAyLjMgNTI5LjcgMjg4IDUxMiAyODhMMzUyIDI4OEwzNTIgMTI4eiIvPjwvc3ZnPg==);
+  --eh-accordion-close: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIHY3LjEuMCBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIENvcHlyaWdodCAyMDI1IEZvbnRpY29ucywgSW5jLi0tPjxwYXRoIGQ9Ik05NiAzMjBDOTYgMzAyLjMgMTEwLjMgMjg4IDEyOCAyODhMNTEyIDI4OEM1MjkuNyAyODggNTQ0IDMwMi4zIDU0NCAzMjBDNTQ0IDMzNy43IDUyOS43IDM1MiA1MTIgMzUyTDEyOCAzNTJDMTEwLjMgMzUyIDk2IDMzNy43IDk2IDMyMHoiLz48L3N2Zz4=);
+  --eh-gray-50: #f3f3f3;
+  --eh-gray-100: #ebebeb;
+  --eh-gray-150: #b1b1b1;
+  --eh-gray-200: #adadad;
+  --eh-gray-300: #7f7f7f;
+  --eh-gray-transparent: rgba(52, 60, 71, 0.8);
+}

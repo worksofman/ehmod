@@ -1,0 +1,21 @@
+body.course-4 .swiper-slide-inner {
+  text-align: center;
+}
+body.course-4 .swiper-button-next,
+body.course-4 .swiper-button-prev {
+  color: var(--eh-primary-color);
+  height: 20px !important;
+  width: 20px !important;
+}
+body.course-4 .swiper-button-next {
+  right: -5px !important;
+}
+body.course-4 .swiper-button-prev {
+  left: -5px !important;
+}
+body.course-4 .swiper-slide-inner {
+  margin-bottom: 0px;
+}
+body.course-4 .swiper {
+  margin-top: 35px;
+}
