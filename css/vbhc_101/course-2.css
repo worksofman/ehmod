@@ -33,3 +33,9 @@
   --eh-gray-300: #7f7f7f;
   --eh-gray-transparent: rgba(52, 60, 71, 0.8);
 }
+
+@media (min-width: 1280px) {
+  body.limitedwidth #page.drawers .main-inner {
+    max-width: 1140px;
+  }
+}

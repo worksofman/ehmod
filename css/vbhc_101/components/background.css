@@ -36,11 +36,13 @@ body.course-2 .bg-blue h4,
 body.course-2 .bg-blue p {
   color: #ffffff;
 }
+
 body.course-2 .bg-blue p {
   font-size: 16.5px;
-  line-height: 1.1;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
+
 body.course-2 .bg-blue h3 {
   font-size: 20px;
 }

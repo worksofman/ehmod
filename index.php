@@ -24,7 +24,7 @@
 </head>
 
 <body class="course-2">
-  <div class="container-fluid" style="max-width: 50%;">
+  <div class="container-fluid" style="max-width: 1140px;">
     <?php include 'm1l1.html'; ?>
   </div>
 

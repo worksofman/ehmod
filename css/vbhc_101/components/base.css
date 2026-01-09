@@ -73,6 +73,130 @@ body.course-2 .h-325 {
   height: 325.688px;
 }
 
+body.course-2 .h-455 {
+  min-height: 455px;
+  height: 455px;
+}
+
+@media (max-width: 1280px) {
+  body.course-2 .h-455 {
+    min-height: 363px;
+    height: 363px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.course-2 .h-455 {
+    min-height: 318.609px;
+    height: 318.609px;
+  }
+}
+@media (max-width: 760px) {
+  body.course-2 .h-455 {
+    min-height: 366px;
+    height: 366px;
+  }
+}
+
+body.course-2 .h-464 {
+  min-height: 464px;
+  height: 464px;
+}
+
+@media (max-width: 1280px) {
+  body.course-2 .h-464 {
+    min-height: 370px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.course-2 .h-464 {
+    min-height: 254px;
+    height: 254px;
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  body.course-2 .h-464 {
+    min-height: 315px;
+    height: 315px;
+    padding: 30px !important;
+  }
+}
+
+body.course-2 .h-515 {
+  min-height: 515px;
+  height: 515px;
+}
+
+@media (max-width: 1280px) {
+  body.course-2 .h-515 {
+    min-height: 410px;
+    height: 410px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.course-2 .h-515 {
+    min-height: 282px;
+    height: 282px;
+  }
+}
+
+@media (max-width: 760px) {
+  body.course-2 .h-515 {
+    min-height: 414px;
+    height: 414px;
+  }
+}
+
+body.course-2 .h-507 {
+  min-height: 507px;
+  height: 507px;
+}
+
+@media (max-width: 1280px) {
+  body.course-2 .h-507 {
+    min-height: 404px;
+    height: 404px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.course-2 .h-507 {
+    min-height: 278px;
+    height: 278px;
+  }
+}
+
+@media (max-width: 760px) {
+  body.course-2 .h-507 {
+    min-height: 407px;
+    height: 407px;
+  }
+}
+
+body.course-2 .h-484 {
+  min-height: 484px;
+  height: 484px;
+}
+
+@media (max-width: 1280px) {
+  body.course-2 .h-484 {
+    min-height: 385.6px;
+    height: 385.6px;
+  }
+}
+
+@media (max-width: 760px) {
+  body.course-2 .h-484 {
+    min-height: 372px;
+    height: 372px;
+  }
+}
+
 body.course-2 .h-328 {
   min-height: 328.109px;
   height: 328.109px;

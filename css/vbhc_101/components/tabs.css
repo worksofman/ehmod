@@ -43,6 +43,10 @@ body.course-2 .tabs-horizontal {
   border: none !important;
 }
 
+body.course-2 .tabs-horizontal .nav-item {
+  width: 33.33%;
+}
+
 body.course-2 .tabs-horizontal .nav-link {
   padding-bottom: 8px;
   padding-left: 40px;
@@ -53,6 +57,10 @@ body.course-2 .tabs-horizontal .nav-link {
   border-right: none !important;
   border-left: none !important;
   color: var(--eh-text-color) !important;
+
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 body.course-2 .tabs-horizontal .nav-link.active,

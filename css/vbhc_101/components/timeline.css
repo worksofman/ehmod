@@ -4,15 +4,27 @@ body.course-2 .timeline-hover {
   position: relative;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.course-2 .timeline-steps::before {
     content: "";
     position: absolute;
     width: 4px;
     top: 85px;
     height: calc(100% - 205px);
-    left: 162px;
+    left: 130px;
     background: var(--eh-gray-200);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.course-2 .timeline-steps::before {
+    left: 162px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.course-2 .timeline-steps::before {
+    left: 225px;
   }
 }
 
@@ -72,6 +84,12 @@ body.course-2 .timeline-steps .col-md-1 i {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  body.course-2 .timeline-hover::before {
+    left: 208px;
+  }
+}
+
 body.course-2 .timeline-hover .col-md-2 {
   color: var(--eh-primary-color);
 }
@@ -118,7 +136,7 @@ body.course-2 .timeline-hover .row:hover .col-md-4 p {
   visibility: visible;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body.course-2 .timeline-hover .col-md-2 {
     margin-top: 20px;
   }
