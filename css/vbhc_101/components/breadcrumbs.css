@@ -1,0 +1,17 @@
+.breadcrumb {
+  align-items: center;
+  background-color: var(--eh-gray-50) !important;
+  border-radius: 6px !important;
+  padding: 0.5em 1em !important;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item span {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--eh-secondary-color);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">" !important;
+}

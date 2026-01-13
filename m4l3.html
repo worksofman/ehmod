@@ -1,7 +1,7 @@
 <section class="course-intro">
   <section>
     <div class="container">
-      <div class="row justify-content-between align-items-center">
+      <div class="row justify-content-between">
         <div
           class="col-12 col-md-6 bg-blue h-464 order-lg-0 order-1 p-30 align-content-center"
         >
@@ -17,18 +17,29 @@
             transforming VBHC from an idea to an actionable reality.
           </p>
         </div>
-        <div class="col-12 col-md-6 order-lg-1 order-0 p-0 p-md-3">
-          <img
-            src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L3-care.png"
-            alt="Consultation"
-            class="w-100"
-          />
+        <div class="col-12 col-md-6 order-lg-1 order-0 p-0 px-md-3">
+          <div
+            class="img-zoom"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-gallery"
+          >
+            <img
+              src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L3-care.png"
+              alt="maturity Path to VBHC Adoptation"
+            />
+          </div>
+          <h3 class="text-center">
+            <i><b>Click on image to enlarge</b></i>
+          </h3>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-gray-100 py-60 px-15">
+  <section
+    class="bg-gray-100 py-60 px-15"
+    id="innovative-reimbursement-models-in-vbhc"
+  >
     <h2 class="text-center">Innovative Care Models In VBHC</h2>
     <p class="text-center">
       VBHC pioneers are shifting towards care models that ensure high quality,
@@ -203,7 +214,9 @@
     </div>
   </section>
 
-  <section>
+  <section
+    id="blueprint-strategies-for-integrating-vbhc-in-healthcare-settings"
+  >
     <h2>Blueprint Strategies For Integrating VBHC In Healthcare Settings</h2>
     <p>
       Navigate the path to seamless VBHC integration with our strategic
@@ -215,7 +228,7 @@
     <div class="container">
       <div class="row timeline-steps">
         <!-- Step 1 -->
-        <div class="col-12 mb-4">
+        <div class="col-12 mb-4" id="cultivating-leadership-and-culture">
           <div class="row align-items-center">
             <div class="col-md-2"><p class="h5">Strategy 1</p></div>
             <div class="col-md-1">
@@ -383,10 +396,10 @@
       Transitioning to VBHC necessitates innovative reimbursement models that
       prioritise patient outcomes and system efficiency.
     </p>
-    <div class="container py-5">
-      <div class="row">
+    <div class="container">
+      <div class="row d-flex gap-4">
         <!-- Column 1 -->
-        <div class="col-md-3 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +419,7 @@
           </p>
         </div>
         <!-- Column 2 -->
-        <div class="col-md-3 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -429,7 +442,7 @@
           </p>
         </div>
         <!-- Column 3 -->
-        <div class="col-md-3 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -495,7 +508,7 @@
           </p>
         </div>
         <!-- Column 4 -->
-        <div class="col-md-3 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -546,4 +559,32 @@
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="modal-gallery" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-dark">
+        <!-- Close button -->
+        <button
+          type="button"
+          class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3"
+          data-bs-dismiss="modal"
+        ></button>
+        <!-- Carousel -->
+        <div
+          id="galleryCarousel"
+          class="carousel slide h-100"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img
+                src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L3-care.png"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

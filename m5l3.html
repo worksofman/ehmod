@@ -23,7 +23,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="real-world-applications">
     <h2>Real World Applications:</h2>
 
     <div class="tool-tip">
@@ -211,30 +211,840 @@
     </div>
 
     <!-- MODAL TEMPLATE (Repeat or use JS to swap content) -->
+
+    <!-- #modalTelemedicine -->
+
     <div
       class="modal fade"
       id="modalTelemedicine"
       tabindex="-1"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Telemedicine</h5>
+          <div class="modal-header justify-content-end border-0">
             <button
               type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
+              class="pum-close popmake-close"
               aria-label="Close"
-            ></button>
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
           </div>
-          <div class="modal-body">
-            <!-- Replace with your Video Embed Code -->
-            <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
-                allowfullscreen
-              ></iframe>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/qgKvyJUlDT0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >Telemedicine enables healthcare professionals to evaluate,
+                  diagnose, and treat patients remotely using telecommunications
+                  technology.</i
+                >
+              </p>
+              <p>
+                Watch this TED Talk to see how the usage of telemedicine was
+                accelerated due to the COVID-19 pandemic, showcasing its crucial
+                role in modern healthcare.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEHR"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-2.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Electronic Health Records (EHR)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalRPM"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-3.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Remote Patient Monitoring (RPM)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalWearables"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-4.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Wearables and digital therapeutics</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAI"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-5.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>
+                    Big data and artificial intelligence in digital health
+                  </h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3D"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-6.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>3D printing</h4>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #modalEHR - Electronic Health Records (EHR) -->
+
+    <div class="modal fade" id="modalEHR" tabindex="-1" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
+        <div class="modal-content">
+          <div class="modal-header justify-content-end border-0">
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+          </div>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/RxDb1mqNWrI"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >EHRs serve as digital repositories of patient data,
+                  transitioning from traditional paper charts to digital
+                  platforms. These records encompass a wide range of data
+                  including medical history, diagnoses, medications, treatment
+                  plans, immunisation dates, allergies, radiology images, and
+                  laboratory test results.</i
+                >
+              </p>
+              <p>
+                Watch this animated timeline of the evolution of Electronic
+                Health Records (EHR) and where they are headed in the future.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalRPM"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-3.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Remote Patient Monitoring (RPM)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalWearables"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-4.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Wearables and digital therapeutics</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAI"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-5.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>
+                    Big data and artificial intelligence in digital health
+                  </h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3D"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-6.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>3D printing</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTelemedicine"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-1.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Telemedicine</h4>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #modalRPM - Remote Patient Monitoring (RPM) -->
+
+    <div class="modal fade" id="modalRPM" tabindex="-1" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
+        <div class="modal-content">
+          <div class="modal-header justify-content-end border-0">
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+          </div>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/CXy1byguvJY"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >Remote Patient Monitoring (RPM) involves the use of digital
+                  technologies to collect medical and other forms of health data
+                  from individuals in one location and electronically transmit
+                  it to healthcare providers in a different location for
+                  assessment and recommendations.</i
+                >
+              </p>
+              <p>
+                Watch this TED Talk to explore a groundbreaking approach to
+                Remote Patient Monitoring (RPM) by Dina Katabi and her team at
+                MIT, which enables monitoring of vital signs without the need
+                for wearables or bulky devices.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalWearables"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-4.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Wearables and digital therapeutics</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAI"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-5.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>
+                    Big data and artificial intelligence in digital health
+                  </h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3D"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-6.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>3D printing</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTelemedicine"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-1.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Telemedicine</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEHR"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-2.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Electronic Health Records (EHR)</h4>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #modalWearables - Remote Patient Monitoring (RPM) -->
+
+    <div
+      class="modal fade"
+      id="modalWearables"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
+        <div class="modal-content">
+          <div class="modal-header justify-content-end border-0">
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+          </div>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/X27aYcBt714"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >The amalgamation of wearable tech, mobile health apps, and
+                  digital therapeutics has led to a more engaged and informed
+                  patient population. These technologies provide individuals
+                  with real time insights, continuous monitoring, and evidence
+                  based interventions. They facilitate a patient centric
+                  approach, and a seamless interaction between individuals and
+                  healthcare providers, promoting proactive management of
+                  health, adherence to treatment plans, and a data driven
+                  approach to healthcare.</i
+                >
+              </p>
+              <p>
+                Dive into the discussion between João Bocas and Roberto Ascione
+                on DTx (Digital Therapeutics) and the implications of wearable
+                technologies in healthcare. Explore the expanding scope of
+                wearable tech from fitness trackers to tools aiding mental and
+                physical health management.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAI"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-5.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>
+                    Big data and artificial intelligence in digital health
+                  </h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3D"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-6.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>3D printing</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTelemedicine"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-1.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Telemedicine</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEHR"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-2.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Electronic Health Records (EHR)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalRPM"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-3.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Remote Patient Monitoring (RPM)</h4>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #modalAI - Big Data AI -->
+
+    <div class="modal fade" id="modalAI" tabindex="-1" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
+        <div class="modal-content">
+          <div class="modal-header justify-content-end border-0">
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+          </div>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/_mXrZEIpNMw"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >Big Data and AI in Digital Health signify the collection,
+                  analysis, and application of large volumes of healthcare data
+                  using intelligent algorithms to derive actionable insights.
+                  This amalgamation enables predictive analytics, enhanced
+                  decision making, and personalised care. By analysing patterns
+                  and trends in data, AI can support early diagnosis, optimise
+                  treatment plans, and improve operational efficiencies, paving
+                  the way for a more proactive and data driven healthcare
+                  ecosystem.</i
+                >
+              </p>
+              <p>
+                Meet Dr. Eric Schadt from the Icahn Institute, who is pioneering
+                the utilisation of big data to craft the medical systems of the
+                future. Discover how AI algorithms are being developed to detect
+                ailments and construct personalised health profiles.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3D"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-6.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>3D printing</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTelemedicine"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-1.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Telemedicine</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEHR"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-2.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Electronic Health Records (EHR)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalRPM"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-3.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Remote Patient Monitoring (RPM)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalWearables"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-4.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Wearables and digital therapeutics</h4>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #modal3D - 3D Printing -->
+
+    <div class="modal fade" id="modal3D" tabindex="-1" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dark modal-xl modal-dialog-centered modal-video"
+      >
+        <div class="modal-content">
+          <div class="modal-header justify-content-end border-0">
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+          </div>
+          <div class="modal-body row py-0 border-0">
+            <div class="col-12 col-md-8 p-3">
+              <!-- Replace with your Video Embed Code -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/uHbn7wLN_3k"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <i
+                  >3D printing is a process that creates three dimensional
+                  objects from a digital model by layering material in
+                  successive layers. In the healthcare sector, this technology
+                  has revolutionised the way medical devices, prosthetics, and
+                  even tissue engineering are approached. It enables the
+                  creation of customised medical products like dental implants,
+                  orthopaedic devices, prosthetic limbs, and medical models used
+                  for surgical preparation.</i
+                >
+              </p>
+              <p>
+                Delve into the realm of bioprinting with Taneka Jones, a
+                groundbreaking technique of 3D printing utilising bioink infused
+                with living cells. Amid the dire shortage of donor organs, with
+                countless individuals on transplant waitlists for life saving
+                organs like hearts, kidneys, and livers, bioprinting emerges as
+                a beacon of hope.
+              </p>
+            </div>
+            <div class="col-12 col-md-4 pr-0 py-3">
+              <h4>Watch Next</h4>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalTelemedicine"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-1.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Telemedicine</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEHR"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-2.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Electronic Health Records (EHR)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalRPM"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-3.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Remote Patient Monitoring (RPM)</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalWearables"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-4.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>Wearables and digital therapeutics</h4>
+                </div>
+              </button>
+
+              <button
+                class="row video-item p-3"
+                data-bs-toggle="modal"
+                data-bs-target="#modalAI"
+              >
+                <div class="col">
+                  <div class="img-wrap">
+                    <img
+                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/video-5.png"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <h4>
+                    Big data and artificial intelligence in digital health
+                  </h4>
+                </div>
+              </button>
             </div>
           </div>
         </div>

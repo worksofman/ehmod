@@ -15,8 +15,8 @@
 @import url("components/tabs.css");
 @import url("components/carousel.css");
 @import url("components/modals.css");
-
-@import url("components/overview.css");
+@import url("components/breadcrumbs.css");
+@import url("components/moodle.css");
 
 :root {
   --eh-primary-color: #1198de;
@@ -31,11 +31,18 @@
   --eh-gray-150: #b1b1b1;
   --eh-gray-200: #adadad;
   --eh-gray-300: #7f7f7f;
-  --eh-gray-transparent: rgba(52, 60, 71, 0.8);
-}
+  --eh-gray-400: #2e2e2e;
+  --eh-gray-500: #1d1d1d;
+  --eh-gray-transparent: rgba(52, 60, 71, 0.8); 
 
 @media (min-width: 1280px) {
   body.limitedwidth #page.drawers .main-inner {
+    max-width: 1140px;
+  }
+  .header-maxwidth {
+    max-width: 1140px;
+  }
+  .secondary-navigation .navigation .nav-tabs {
     max-width: 1140px;
   }
 }

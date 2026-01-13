@@ -37,6 +37,16 @@ body.course-2 .hover-front {
   background-size: cover;
 }
 
+/* SHADOW CARDS
+*
+* Module 1 - Topic 3 
+* Module 2 - Topic 2
+* Module 2 - Topic 5
+* Module 4 - Topic 2
+* Module 4 - Topic 3
+* Module 4 - Topic 4
+*/
+
 body.course-2 .shadow-cards {
   padding: 38px 20px 20px 20px;
   border-radius: 20px;

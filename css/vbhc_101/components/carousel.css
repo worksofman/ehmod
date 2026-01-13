@@ -24,6 +24,7 @@ body.course-2 .carousel-pointers p {
 }
 body.course-2 .carousel-pointers p.lead {
   width: 50%;
+  min-height: 85px;
 }
 
 body.course-2 .carousel-pointers .card-body p {
@@ -69,17 +70,17 @@ body.course-2 .carousel-pointers .carousel-item:nth-child(3):before {
 }
 
 body.course-2 .carousel-pointers .card-body:nth-child(3) {
-  right: -20%;
+  right: -10%;
   top: 30%;
 }
 
 body.course-2 .carousel-pointers .card-body:nth-child(4) {
-  right: -10%;
+  right: 0%;
   top: 85%;
 }
 
 body.course-2 .carousel-pointers .card-body:nth-child(5) {
-  right: -40%;
+  right: -20%;
   top: 60%;
 }
 

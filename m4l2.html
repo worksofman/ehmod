@@ -26,7 +26,10 @@
     </div>
   </section>
 
-  <section class="bg-gray-100 py-60 px-15">
+  <section
+    class="bg-gray-100 py-60 px-15"
+    id="understanding-the-vbhc-framework"
+  >
     <h2 class="text-center">Understanding The VBHC Framework</h2>
     <p>
       The VBHC framework is not just a theoretical model but a necessary
@@ -83,11 +86,19 @@
       </div>
       <div class="row justify-content-between">
         <div class="col-12 col-md-6">
-          <img
-            src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L2-equation.png"
-            alt="Consultation"
-            class="w-100"
-          />
+          <div
+            class="img-zoom"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-gallery"
+          >
+            <img
+              src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L2-equation.png"
+              alt="Consultation"
+            />
+          </div>
+          <h3 class="text-center">
+            <i><b>Click on image to enlarge</b></i>
+          </h3>
         </div>
         <div class="col-12 col-md-6">
           <h3>The value equation</h3>
@@ -104,16 +115,19 @@
     </div>
   </section>
 
-  <section>
-    <h2>What We Have Learned So Far</h2>
+  <section id="core-components-of-vbhc-a-concise-overview">
+    <h2>Core Components Of VBHC: A Concise Overview</h2>
     <p>
-      The video covered several key aspects of PRMs that provide a strong
-      foundation for utilising PRMs data to inform healthcare service provision.
+      The successful implementation of VBHC hinges on the integration and
+      application of the following core components. By measuring outcomes,
+      aligning incentives, leveraging technology, integrating systems, and
+      organising care, healthcare providers can deliver care that is not only
+      high in quality but also maximises value for patients.
     </p>
-    <div class="container py-5">
-      <div class="row">
+    <div class="container">
+      <div class="row d-flex gap-4">
         <!-- Column 1 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +185,7 @@
           </p>
         </div>
         <!-- Column 2 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +237,7 @@
           </p>
         </div>
         <!-- Column 3 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -286,8 +300,10 @@
             visualisations.
           </p>
         </div>
+      </div>
+      <div class="row d-flex mt-4 gap-4">
         <!-- Column 4 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +337,7 @@
           </p>
         </div>
         <!-- Column 5 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -350,7 +366,7 @@
           </p>
         </div>
         <!-- Column 6 -->
-        <div class="col-md-4 text-center mb-4 shadow-cards">
+        <div class="col-12 col-md text-center shadow-cards">
           <div class="mb-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -386,4 +402,32 @@
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="modal-gallery" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-dark">
+        <!-- Close button -->
+        <button
+          type="button"
+          class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3"
+          data-bs-dismiss="modal"
+        ></button>
+        <!-- Carousel -->
+        <div
+          id="galleryCarousel"
+          class="carousel slide h-100"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img
+                src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-4/M4L2-equation.png"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
