@@ -1,4 +1,10 @@
 /* SECTIONS */
+
+body.course-2 #course-index-section-1,
+body.course-2 #section-0 {
+  display: none !important;
+}
+
 body.course-2 .course-intro {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -78,23 +84,16 @@ body.course-2 .h-455 {
   height: 455px;
 }
 
-@media (max-width: 1280px) {
-  body.course-2 .h-455 {
-    min-height: 363px;
-    height: 363px;
-  }
-}
-
 @media (max-width: 1024px) {
   body.course-2 .h-455 {
     min-height: 318.609px;
-    height: 318.609px;
+    height: auto;
   }
 }
 @media (max-width: 760px) {
   body.course-2 .h-455 {
     min-height: 366px;
-    height: 366px;
+    height: auto;
   }
 }
 
@@ -103,17 +102,10 @@ body.course-2 .h-464 {
   height: 464px;
 }
 
-@media (max-width: 1280px) {
-  body.course-2 .h-464 {
-    min-height: 370px;
-    height: 370px;
-  }
-}
-
 @media (max-width: 1024px) {
   body.course-2 .h-464 {
-    min-height: 254px;
-    height: 254px;
+    min-height: 324px;
+    height: auto;
     padding: 15px !important;
   }
 }
@@ -121,7 +113,7 @@ body.course-2 .h-464 {
 @media (max-width: 760px) {
   body.course-2 .h-464 {
     min-height: 315px;
-    height: 315px;
+    height: auto;
     padding: 30px !important;
   }
 }
@@ -141,14 +133,14 @@ body.course-2 .h-515 {
 @media (max-width: 1024px) {
   body.course-2 .h-515 {
     min-height: 282px;
-    height: 282px;
+    height: auto;
   }
 }
 
 @media (max-width: 760px) {
   body.course-2 .h-515 {
     min-height: 414px;
-    height: 414px;
+    height: auto;
   }
 }
 
@@ -167,14 +159,14 @@ body.course-2 .h-507 {
 @media (max-width: 1024px) {
   body.course-2 .h-507 {
     min-height: 278px;
-    height: 278px;
+    height: auto;
   }
 }
 
 @media (max-width: 760px) {
   body.course-2 .h-507 {
     min-height: 407px;
-    height: 407px;
+    height: auto;
   }
 }
 
@@ -190,10 +182,17 @@ body.course-2 .h-484 {
   }
 }
 
+@media (max-width: 1024px) {
+  body.course-2 .h-484 {
+    min-height: 385.6px;
+    height: auto;
+  }
+}
+
 @media (max-width: 760px) {
   body.course-2 .h-484 {
     min-height: 372px;
-    height: 372px;
+    height: auto;
   }
 }
 

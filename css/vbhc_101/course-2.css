@@ -16,7 +16,9 @@
 @import url("components/carousel.css");
 @import url("components/modals.css");
 @import url("components/breadcrumbs.css");
+
 @import url("components/moodle.css");
+@import url("components/boostrap.css");
 
 :root {
   --eh-primary-color: #1198de;

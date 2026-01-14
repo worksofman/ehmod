@@ -11,20 +11,32 @@ body.course-2 .timeline-hover {
     width: 4px;
     top: 85px;
     height: calc(100% - 205px);
-    left: 130px;
+    left: 136px;
     background: var(--eh-gray-200);
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.course-2 .timeline-steps::before {
-    left: 162px;
+    left: 138px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   body.course-2 .timeline-steps::before {
-    left: 225px;
+    left: 182px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body.course-2 .timeline-steps::before {
+    left: 213px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  body.course-2 .timeline-steps::before {
+    left: 226px;
   }
 }
 
@@ -69,7 +81,7 @@ body.course-2 .timeline-steps .col-md-1 i {
 @media screen and (min-width: 768px) {
   body.course-2 .timeline-hover::before {
     top: 40px;
-    left: 130px;
+    left: 136px;
     height: calc(100% - 50px);
     content: "";
     position: absolute;
@@ -78,15 +90,21 @@ body.course-2 .timeline-steps .col-md-1 i {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   body.course-2 .timeline-hover::before {
-    left: 157px;
+    left: 182px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   body.course-2 .timeline-hover::before {
-    left: 208px;
+    left: 213px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  body.course-2 .timeline-hover::before {
+    left: 226px;
   }
 }
 
@@ -96,16 +114,16 @@ body.course-2 .timeline-hover .col-md-2 {
 
 body.course-2 .timeline-hover .col-md-1 {
   text-align: center;
-  height: 40px;
-  width: 40px;
   padding-top: 10px;
   border-radius: 50%;
-  background-color: var(--eh-primary-color);
 }
 
 body.course-2 .timeline-hover .col-md-1 i {
   color: white;
   font-size: 18px;
+  background-color: var(--eh-primary-color);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 body.course-2 .timeline-hover .col-md-5 {
@@ -139,10 +157,17 @@ body.course-2 .timeline-hover .row:hover .col-md-4 p {
 @media screen and (max-width: 767px) {
   body.course-2 .timeline-hover .col-md-2 {
     margin-top: 20px;
+    text-align: center !important;
+  }
+
+  body.course-2 .timeline-hover .col-md-1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   body.course-2 .timeline-hover .row .col-md-5 {
     background-color: var(--eh-gray-100);
+    margin-bottom: 15px;
   }
 
   body.course-2 .timeline-hover .col-md-4 p {
@@ -153,6 +178,10 @@ body.course-2 .timeline-hover .row:hover .col-md-4 p {
     margin: 0px;
     top: auto;
     border-radius: 20px;
+  }
+
+  body.course-2 .timeline-steps .col-md-1 .elementor-icon {
+    margin-top: 20px;
   }
 }
 body.course-2 .timeline-hover .row:last-child .col-md-4 p,

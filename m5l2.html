@@ -1,9 +1,9 @@
 <section class="course-intro">
   <section id="quadruple-aim">
     <div class="container">
-      <div class="row justify-content-between align-items-center">
+      <div class="row justify-content-between">
         <div
-          class="col-12 col-md-6 bg-blue h-515 order-lg-0 order-1 p-30 align-content-center"
+          class="col-12 col-lg-6 bg-blue h-515 order-lg-0 order-1 p-30 align-content-center"
         >
           <h3>Quadruple aim</h3>
           <br />
@@ -22,12 +22,20 @@
             effective, efficient, inclusive, and aligned with the Quadruple Aim.
           </p>
         </div>
-        <div class="col-12 col-md-6 order-lg-1 order-0 p-0 p-md-3">
-          <img
-            src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-aim.png"
-            alt="Impact"
-            class="w-100"
-          />
+        <div class="col-12 col-lg-6 order-lg-1 order-0 p-0 px-lg-3">
+          <div
+            class="img-zoom"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-gallery"
+          >
+            <img
+              src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-aim.png"
+              alt="maturity Path to VBHC Adoptation"
+            />
+          </div>
+          <h3 class="text-center">
+            <i><b>Click on image to enlarge</b></i>
+          </h3>
         </div>
       </div>
     </div>
@@ -424,11 +432,19 @@
                       patients alike.
                     </p>
 
-                    <img
-                      src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-ecosystem.png"
-                      alt="Impact"
-                      class="w-100"
-                    />
+                    <div
+                      class="img-zoom"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal-gallery2"
+                    >
+                      <img
+                        src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-ecosystem.png"
+                        alt="ECOSYSTEM"
+                      />
+                    </div>
+                    <h3 class="text-center">
+                      <i><b>Click on image to enlarge</b></i>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -438,4 +454,66 @@
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="modal-gallery" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-dark">
+        <!-- Close button -->
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+        <!-- Carousel -->
+        <div
+          id="galleryCarousel"
+          class="carousel slide h-100"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner h-100">
+            <div class="carousel-item h-100">
+              <img
+                src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-aim.png"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-gallery2" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-dark ">
+        <!-- Close button -->
+            <button
+              type="button"
+              class="pum-close popmake-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+            >
+              ×
+            </button>
+        <!-- Carousel -->
+        <div
+          id="galleryCarousel"
+          class="carousel slide h-100"
+          data-bs-ride="false"
+        >
+          <div class="carousel-inner h-100">
+            <div class="carousel-item h-100">
+              <img
+                src="https://eh-lms-assets.s3.ap-southeast-2.amazonaws.com/img/vbhc_101/module-5/M5L2-ecosystem.png"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

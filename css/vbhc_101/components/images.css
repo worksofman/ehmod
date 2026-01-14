@@ -11,3 +11,9 @@ body.course-2 .svg-40 svg {
   width: 40px;
   height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  body.course-2 .col-2 svg {
+    width: 180%;
+  }
+}

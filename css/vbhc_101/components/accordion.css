@@ -4,13 +4,26 @@ body.course-2 .accordion .accordion-header {
 }
 
 body.course-2 .accordion .accordion-button::after {
-  mask: var(--eh-accordion-open);
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px; /* adjust horizontal position */
+  width: 20px; /* icon width */
+  height: 20px; /* icon height */
+  transform: translateY(-50%);
   background: var(--eh-text-color);
+  -webkit-mask: var(--eh-accordion-open);
+  mask: var(--eh-accordion-open);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  transition: all 0.3s ease;
 }
 
 body.course-2 .accordion .accordion-button:not(.collapsed)::after {
+  background: #ffffff; /* different color if open */
+  -webkit-mask: var(--eh-accordion-close);
   mask: var(--eh-accordion-close);
-  background: #ffffff;
 }
 
 body.course-2 .accordion .accordion-button {
@@ -19,6 +32,9 @@ body.course-2 .accordion .accordion-button {
   font-size: 20px;
   font-weight: 500;
   border: 1px solid var(--eh-gray-100);
+  width: 100%;
+  position: relative;
+  text-align: left;
 }
 
 body.course-2 .accordion .accordion-button {
@@ -44,6 +60,7 @@ body.course-2 .accordion .accordion-button:not(.collapsed) a {
 body.course-2 .accordion .accordion-body {
   color: var(--eh-text-color);
   padding: 50px 30px;
+  border: 1px solid var(--eh-gray-100);
 }
 
 body.course-2 .accordion .accordion-body ul {

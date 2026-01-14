@@ -182,3 +182,35 @@ body.course-2 .carousel-pointers .carousel-control-next {
   left: auto;
   right: -52px;
 }
+
+/* NAVIGATION BUTTONS */
+
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+  color: transparent; /* hide original text */
+  position: relative;
+}
+
+.carousel-control-prev .visually-hidden::after {
+  content: "\f053"; /* Font Awesome chevron-left */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* required for solid icons */
+  font-size: 2rem; /* arrow color */
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-control-next .visually-hidden::after {
+  content: "\f054"; /* chevron-right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
