@@ -66,3 +66,10 @@ body.course-2 .accordion .accordion-body {
 body.course-2 .accordion .accordion-body ul {
   list-style: disc;
 }
+
+@media (max-width: 576px) {
+  body.course-2 .accordion .accordion-button {
+    padding: 20px;
+    font-size: 17px;
+  }
+}

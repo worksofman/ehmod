@@ -109,3 +109,25 @@ body.course-2 .fade-white::before {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+@media (max-width: 576px) {
+  body.course-2 .gradient-red,
+  body.course-2 .gradient-green {
+    padding: 20px;
+    font-size: 17px;
+  }
+  body.course-2 .gradient-red h3,
+  body.course-2 .gradient-green h3 {
+    font-size: 17px;
+  }
+  body.course-2 .gradient-red p,
+  body.course-2 .gradient-green p {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  body.course-2 .gradient-red .col,
+  body.course-2 .gradient-green .col {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

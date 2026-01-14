@@ -189,3 +189,10 @@ body.course-2 .timeline-hover .row:nth-last-child(2) .col-md-4 p {
   bottom: -35px;
   top: auto;
 }
+
+@media screen and (max-width: 640px) {
+  body.course-2 .timeline-hover .row:last-child .col-md-4 p,
+  body.course-2 .timeline-hover .row:nth-last-child(2) .col-md-4 p {
+    bottom: auto;
+  }
+}

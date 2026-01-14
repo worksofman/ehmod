@@ -1,6 +1,11 @@
 /* TABLE */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 table {
+  border-collapse: collapse;
   border: none !important;
 }
 

@@ -40,10 +40,17 @@
   font-weight: bold;
 }
 
+span.drop {
+  position: relative;
+  border: 2px solid #000;
+  min-width: 342px; /* Adjust this number based on your placeholder length */
+}
+
 span.drop::before {
   content: "Drag elements from the box below into this space";
-  font-style: italic;
-  color: var(--eh-gray-200);
+  color: var(--eh-gray-150);
+  position: absolute;
+  left: 5px;
 }
 
 .answercontainer .draggrouphomes1 {
@@ -53,7 +60,18 @@ span.drop::before {
   line-height: 1.2 !important;
 }
 
+.que.ddwtos .draghome.unplaced {
+  border: 1px dashed #000;
+}
+
 .page-header-image,
 .page-header-headings .text-muted {
   display: none;
+}
+
+/* QUIZ */
+@media (max-width: 576px) {
+  .jsenabled #page-footer .footer-content-popover .footer-section:last-child {
+    display: none;
+  }
 }

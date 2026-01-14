@@ -71,6 +71,7 @@ body.course-2 .tabs-horizontal .nav-link.active,
 body.course-2 .tabs-horizontal .nav-link:hover {
   color: var(--eh-primary-color) !important;
   border-bottom: solid 2px var(--eh-primary-color) !important;
+  background: transparent !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,5 +85,12 @@ body.course-2 .tabs-horizontal .nav-link:hover {
 
   body.course-2 .tabs-horizontal .nav-link {
     width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-tabs:not(.more-nav),
+  .nav-pills {
+    background-color: transparent;
   }
 }

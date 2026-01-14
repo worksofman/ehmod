@@ -18,8 +18,20 @@ body.course-2 .video-wrapper iframe {
   }
 }
 
+@media (max-width: 1024px) {
+  .walkthrough-iframe {
+    height: 310px;
+  }
+}
+
 @media (max-width: 728px) {
   body.course-2 .video-wrapper iframe {
     height: 240px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .walkthrough-iframe {
+    height: 170px;
   }
 }

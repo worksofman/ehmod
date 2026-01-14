@@ -142,6 +142,7 @@ body.course-2 .carousel-pointers .card-body .btn-pointer {
     transform: scale(0.8);
   }
 }
+
 body.course-2 .carousel-pointers .card-body .btn-point {
   position: absolute;
   color: #424242;
@@ -213,4 +214,66 @@ body.course-2 .carousel-pointers .carousel-control-next {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1024px) {
+  body.course-2 .carousel-pointers p.lead {
+    min-height: 143px;
+  }
+  body.course-2 .carousel-pointers .card-body .btn-pointer {
+    left: 80px;
+  }
+
+  .carousel-control-prev .visually-hidden::after,
+  .carousel-control-next .visually-hidden::after {
+    font-size: 10px;
+  }
+  body.course-2 .carousel-pointers .carousel-control-prev,
+  body.course-2 .carousel-pointers .carousel-control-next {
+    width: 30px;
+    height: 30px;
+  }
+  body.course-2 .carousel-pointers .carousel-control-next {
+    left: auto;
+    right: -35px;
+  }
+  body.course-2 .carousel-pointers .carousel-control-prev {
+    right: auto;
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body.course-2 .carousel-pointers p.lead {
+    min-height: 205px;
+    width: 60%;
+  }
+
+  body.course-2 .carousel-pointers h2 {
+    min-height: 67px;
+  }
+
+  body.course-2 .carousel-pointers .card-body .btn-pointer {
+    left: 150px;
+  }
+  body.course-2 .carousel-pointers .carousel-control-next {
+    left: auto;
+    right: -32px;
+  }
+  body.course-2 .carousel-pointers .carousel-control-prev {
+    right: auto;
+    left: -32px;
+  }
+  body.course-2 .carousel-pointers {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  body.course-2 .carousel-pointers .card-body:nth-child(4) {
+    top: 70%;
+  }
+
+  body.course-2 .carousel-pointers .card-body:nth-child(5) {
+    top: 50%;
+  }
 }
