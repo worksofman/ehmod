@@ -74,6 +74,8 @@ body.course-2 .flip-card-back {
   color: #fff;
   transform: rotateY(180deg);
 }
-body.course-2 .flip-card-back p {
+
+body.course-2 .flip-card-back p,
+body.course-2 .flip-card-back p a {
   color: #fff;
 }
