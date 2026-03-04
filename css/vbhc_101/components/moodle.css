@@ -19,13 +19,18 @@
 .que.correct .content .outcome {
   border: none;
   background-color: #ccedd9;
-  color: #00c349;
+  color: #000;
 }
 
 .que.incorrect .content .outcome {
   border: none;
   background-color: #ebc3c3;
-  color: #f11414;
+  color: #000;
+}
+
+.que.correct .content .outcome a,
+.que.incorrect .content .outcome a {
+  color: var(--eh-primary-color);
 }
 
 .answercontainer {
