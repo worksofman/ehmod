@@ -2,18 +2,39 @@ body.course-2 .video-wrapper {
   margin-bottom: 40px;
 }
 
-body.course-2 .video-wrapper iframe {
+body.course-2 .custom-overlay {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+body.course-2 .custom-overlay button {
+  width: 75px;
+  background: none;
+  border: none;
+}
+
+body.course-2 .video-wrapper .video-container,
+body.course-2 .video-wrapper .video-container .custom-overlay {
   height: 640px !important;
 }
 
 @media (max-width: 1440px) {
-  body.course-2 .video-wrapper iframe {
+  body.course-2 .video-wrapper .video-container,
+  body.course-2 .video-wrapper .video-container .custom-overlay {
     height: 443px !important;
   }
 }
 
 @media (max-width: 1280px) {
-  body.course-2 .video-wrapper iframe {
+  body.course-2 .video-wrapper .video-container,
+  body.course-2 .video-wrapper .video-container .custom-overlay {
     height: 360px !important;
   }
 }
@@ -25,7 +46,8 @@ body.course-2 .video-wrapper iframe {
 }
 
 @media (max-width: 728px) {
-  body.course-2 .video-wrapper iframe {
+  body.course-2 .video-wrapper .video-container,
+  body.course-2 .video-wrapper .video-container .custom-overlay {
     height: 240px !important;
   }
 }

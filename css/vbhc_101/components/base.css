@@ -28,12 +28,26 @@ body.course-2 h6 {
   color: var(--eh-primary-color);
 }
 
-body.course-2 p {
+body.course-2 p,
+body.course-2 ul.plain li {
   color: var(--eh-text-color);
   font-weight: 400;
   font-size: 17px;
   line-height: 1.6;
   margin: 0px 0 24px 0;
+}
+
+body.course-2 ul.plain li {
+  margin: 0px;
+}
+
+body.course-2 p a {
+  color: var(--eh-primary-color);
+}
+
+body.course-2 span[title]:hover {
+  text-decoration: underline dotted var(--eh-primary-color);
+  cursor: help; /* Optional: signals to the user that there is more info */
 }
 
 body.course-2 h4 {

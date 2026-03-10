@@ -104,6 +104,13 @@ body.course-2 .modal-video .modal-content .col-md-4 {
 body.course-2 .modal-video .modal-content .col-md-8 .ratio {
   margin-bottom: 30px;
 }
+
+body.course-2 .modal-video .modal-content .col-md-8 .ratio .video-container,
+body.course-2 .modal-video .modal-content .col-md-8 .ratio .custom-overlay {
+  height: 420px !important;
+  border-radius: 20px;
+}
+
 body.course-2 .modal-video .modal-content .col-md-8 iframe {
   border-radius: 20px;
 }
