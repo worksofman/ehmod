@@ -131,6 +131,10 @@ body.course-2 .timeline-hover .col-md-5 {
   border-radius: 20px;
 }
 
+body.course-2 .timeline-hover .col-md-5 h4 {
+  margin: 0px;
+}
+
 body.course-2 .timeline-hover .row:hover .col-md-5 {
   background-color: var(--eh-gray-100);
 }

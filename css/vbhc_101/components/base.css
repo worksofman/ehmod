@@ -78,6 +78,10 @@ body.course-2 .h-490 {
   height: 490px;
 }
 
+body.course-2 .min-h-165 {
+  min-height: 165px;
+}
+
 body.course-2 .h-368 {
   min-height: 368px;
   height: 368px;
